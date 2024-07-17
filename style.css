@@ -4,31 +4,39 @@ body{
 .container{
 	width: 90%;
 	margin: auto;
+	
 }
 .header{
 	background: black;
 	width: 100%;
 	margin: 0;
 }
+.header:after{
+	content: "";
+	display: block;
+	clear: both;
+}
 .logo{
 	float: left;
-	width: 10%;
-	overflow: hidden;
+	width: 30%;
 }
 img{
-	margin-top:12px;
+	margin-top: 15px;
+
 }
 .main-menu{
-	width: 90%;
-	overflow: hidden;
+	width: 70%;
+	/*overflow: hidden;*/
+	float: left;
 }
 .main-menu ul{
 	margin: 0;
 	float: right;
 }
-.main-menu ul li{
+.main-menu >ul >li{
 	float: left;
 	list-style-type: none;
+	position: relative;
 }
 .main-menu ul li a{
 	color: white;
@@ -38,15 +46,34 @@ img{
 	text-transform: capitalize;
 	font-family: tahoma;
 	font-weight: normal;
+	margin: 0 2px;
 
 }
 .main-menu ul li:last-child{
 	padding: 0;
 }
-/*.main-menu ul li a:hover{
-	background: red;
+.main-menu ul li:hover a{
+	background: orange;
 
-}*/
+}
+.main-menu .home a{
+	background: orange;
+}
+.main-menu ul ul{
+	padding-left: 0;
+	background: red;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+}
+.main-menu ul ul li{
+	min-width: 180px;
+}
+.main-menu ul li:hover ul{
+	display: block;
+}
+
 .banner-section{
   background-image: url("images/background.jpg");
   width: 100%;
@@ -145,22 +172,18 @@ img{
 	overflow: hidden;
 }
 .social-right ul{
-	float: right;
-	margin: 0;
-	padding: 0;
-	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
 }
 .social-right ul li{
 	list-style: none;
-	float: left;
-	list-style:none;
+
 }
 .social-right ul li a{
-	font-size: 25px;
 	padding-left: 80px;
 	display: block;
 	line-height:75px;
-	font-size: 50px;
+	font-size: 40px;
 	color: #cccccc;
 }
 /*.social-icon{
