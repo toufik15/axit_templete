@@ -163,26 +163,26 @@ img{
 	border-bottom: 1px solid #d6d6d6;
 }
 .social-media .social-left{
-	width: 30%;
+	width: 40%;
 	float: left;
 	font-family: tahoma;
 }
 .social-media .social-right{
-	width: 70%;
+	width:60%;
 	overflow: hidden;
+
 }
 .social-right ul{
 	display: flex;
 	justify-content: space-between;
+	margin-left: 10%;
 }
 .social-right ul li{
 	list-style: none;
 
 }
 .social-right ul li a{
-	padding-left: 80px;
-	display: block;
-	line-height:75px;
+	line-height:90px;
 	font-size: 40px;
 	color: #cccccc;
 }
