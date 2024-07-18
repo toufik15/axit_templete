@@ -342,6 +342,11 @@ body{
 	color: #86878b;
 	font-size: 18px;
 }
+.sublist-right hr{
+	width: 10%;
+	border-bottom: 1px solid orange;
+	margin: 0;
+}
 .standard-picture{
 	margin: 0;
 	padding: 100px 0;
@@ -393,15 +398,35 @@ body{
 }
 .awesome-bottom li{
 	list-style-type: none;
-	width: 10%;
-	border-radius: 50%;
-	border: 2px solid orange;
+	/*width: 20%;*/
 	color: orange;
-	padding: 10px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	/*display: block;*/
 }
-.awesome-bottom li i{
+/*.awesome-bottom li i{
   font-size: 40px;
+  border-radius: 50%;
+	border: 2px solid orange;
+	padding: 15px;
+}*/
+
+.icon-left i{
+	font-size: 40px;
+  border-radius: 50%;
+	border: 2px solid orange;
+	padding: 15px 20px;
+}
+.icon-right i{
+	font-size: 40px;
+  border-radius: 50%;
+	border: 2px solid orange;
+	padding: 15px 20px;
+}
+.icon-middle i{
+	font-size: 40px;
+  border-radius: 50%;
+	border: 2px solid orange;
+	padding: 15px;
 }
 .awesome-bottom h3{
 	font-size: 22px;
@@ -419,6 +444,9 @@ body{
 	width: 7%;
 	margin: 0 auto;
 	border-bottom: 1px solid orange;
+}
+.awesome-bottom .icon-middle{
+	margin: 0 5%;
 }
 .price{
 	background: #f5f5f5;
@@ -562,4 +590,208 @@ body{
 	padding: 20px 0;
 	background: orange;
 	font-family: sans-serif;
+}
+.testmonial{
+	width: 100%;
+	margin: 0;
+	padding: 100px 0;
+}
+.testmonial-top{
+	text-align: center;
+}
+.testmonial-top h2{
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 40px;
+	font-family: tahoma;
+}
+
+.testmonial-top hr{
+	width: 7%;
+	margin: 0 auto;
+	border-bottom: 1px solid orange;
+}
+.testmonial-top p{
+	font-size: 18px;
+	margin-top: 30px;
+	font-family: tahoma;
+	color: #86878b;
+}
+.testmonial-bottom{
+	display: flex;
+	width: 95%;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.review1 .box1,
+.review2 .box2,
+.review3 .box3{
+	width: 100%;
+	background: #f5f5f5;
+	padding: 10px 15px;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.review1 img,
+.review2 img,
+.review3 img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 30px;
+}
+.review1,
+.review2,
+.review3{
+	width: 25%;
+}
+.review1 h3,
+.review2 h3,
+.review3 h3{
+	margin: 0;
+	padding: 0;
+}
+.review1 p,
+.review2 p,
+.review3 p{
+	margin: 5px 0;
+	padding: 0;
+}
+.design{
+	margin: 0;
+	width: 100%;
+	background: url("images/design.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 100px 0;
+	text-align: center;
+}
+.design h2{
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 40px;
+	font-family: tahoma;
+	font-weight: normal;
+}
+.design hr{
+	width: 5%;
+	border-bottom: 1px solid white;
+	margin: 30px auto;
+}
+.design p{
+	color: white;
+	font-size: 18px;
+	color:#e4e4e2;
+	padding-bottom: 25px;
+}
+.design a{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid white;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.contact{
+	width: 100%;
+	margin: 0;
+	padding: 100px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.contact-top{
+	text-align: center;
+}
+.contact-top h2{
+	font-size: 40px;
+	font-weight: normal;
+	font-family: tahoma;
+	margin: 0;
+}
+.contact-top hr{
+	width: 5%;
+	border-bottom: 1px solid orange;
+	margin: 30px auto;
+}
+.contact-top p{
+	font-size: 18px;
+	color:#86878b;
+}
+.contact-form{
+	width: 100%;
+	margin-top: 100px;
+}
+.contact-form-input{
+	width: 50%;
+	float: left;
+}
+.contact-form input{
+	float: none;
+	display: block;
+	border: none;
+	border-bottom: 2px solid #e4e4e2;
+	width: 95%;
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+.contact-form-message{
+	width: 50%;
+	overflow: hidden;
+}
+.contact-form-message textarea{
+	width: 95%;
+	border: none;
+	border-bottom: 2px solid #e4e4e2;
+}
+.send{
+	width: 100%;
+	overflow: hidden;
+	padding: 25px 0;
+
+}
+.send a{
+	padding: 15px 20px;
+	background: orange;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+}
+.send a:hover{
+	background: yellowgreen;
+}
+.footer{
+	width: 100%;
+	background: black;
+	padding: 30px 0;
+}
+.footer-icon{
+	width: 30%;
+	margin: 0 auto;
+}
+.footer-icon ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-icon ul li{
+	text-decoration: none;
+}
+.footer-icon ul li a{
+	font-size: 30px;
+	color: dimgray;
+}
+.footer p{
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding-top: 20px;
 }
