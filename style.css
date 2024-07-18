@@ -20,7 +20,7 @@ body{
 	float: left;
 	width: 30%;
 }
-img{
+.logo img{
 	margin-top: 15px;
 
 }
@@ -32,6 +32,7 @@ img{
 .main-menu ul{
 	margin: 0;
 	float: right;
+	display: block;
 }
 .main-menu >ul >li{
 	float: left;
@@ -41,7 +42,7 @@ img{
 .main-menu ul li a{
 	color: white;
 	text-decoration: none;
-	padding: 20px 40px;
+	padding: 20px 30px;
 	display: block;
 	text-transform: capitalize;
 	font-family: tahoma;
@@ -85,15 +86,18 @@ img{
 .banner-left{
 	width: 70%;
 	float: left;
-	display: block;
 }
 .banner-left a{
 	text-decoration:none ;
-	padding: 10px 40px;
+	padding: 10px 30px;
 	border: 2px solid white;
 	font-weight: bold;
 	color: #ffffff;
 	font-size: 22px;
+}
+.banner-left a:hover{
+	background:#ff8b38 ;
+	border: none;
 }
 .banner-left h1{
 	color: white;
@@ -105,7 +109,15 @@ img{
 	color: white;
 	font-weight: normal;
 	width: 60%;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+}
+.banner-left hr{
+	width: 7%;
+	margin: 0;
+	border-bottom: 1px solid white;
 }
 .banner-right{
 	width: 30%;
@@ -134,12 +146,12 @@ img{
 	margin: 40px 0;
 	padding: 10px 0;
 	border: none;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #86878b;
 }
 .banner-right input[type=submit]{
 	width: 100%;
 	margin: 0;
-	padding: 15px 0;
+	padding: 20px 0;
 	background: #ff9b51;
 	font-size: 20px;
 	font-weight: bold;
@@ -153,7 +165,7 @@ img{
 	margin: auto;
 }
 ::placeholder{
-	color: black;
+	color: #86878b;
 }
 /*Start social media */
 .social-media{
@@ -283,4 +295,271 @@ img{
 .soft-right img{
 	margin-top:40px;
 	float: right;
+}
+.sub-list{
+	margin: 0;
+	padding: 100px 0;
+	width: 100%;
+	overflow: hidden;
+}
+.sublist-left{
+	width: 60%;
+	float: left;
+	margin-top: 40px;
+	padding: 0;
+}
+.sublist-right{
+	width: 40%;
+	overflow: hidden;
+	float: right;
+}
+.sublist-right-top li,
+.sublist-right-bottom li{
+	float: left;
+	list-style-type: 	none;
+	border: 2px solid orange	;
+	border-radius: 50%;
+	color: 	orange;
+	padding: 	10px;
+	margin-right: 10px;
+}
+.sublist-right-top p,
+.sublist-right-bottom p{
+	width:100%;
+	margin-left: 80px;
+	color: #f5f5f5;
+}
+.sublist-right-top h2,
+.sublist-right-bottom h2{
+	padding-left:20px ;
+	overflow: hidden;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.sublist-right p{
+	width: 90%;
+	padding-bottom: 20px;
+	color: #86878b;
+	font-size: 18px;
+}
+.standard-picture{
+	margin: 0;
+	padding: 100px 0;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.standard-picture-right{
+	width: 40%;
+	float: left;
+}
+.standard-picture-left{
+	width: 60%;
+	float: left;
+}
+.standard-picture-left p{
+	width: 70%;
+	font-size: 18px;
+	color:#86878b;
+}
+.standard-picture-left h2{
+	margin-bottom: 40px;
+}
+.awesome{
+	width: 100%;
+	padding: 100px 0;
+}
+.awesome-top{
+	text-align: center;
+}
+.awesome-top p{
+	margin-bottom: 100px;
+	margin-top:30px;
+	font-size: 18px;
+}
+.awesome-top h2{
+	font-size: 40px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: tahoma;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.awesome-bottom{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: center;
+}
+.awesome-bottom li{
+	list-style-type: none;
+	width: 10%;
+	border-radius: 50%;
+	border: 2px solid orange;
+	color: orange;
+	padding: 10px;
+	margin: 0 auto;
+}
+.awesome-bottom li i{
+  font-size: 40px;
+}
+.awesome-bottom h3{
+	font-size: 22px;
+	font-family: arial;
+	padding-top:20px;
+}
+.icon-middle{
+	margin: 0 40px;
+}
+.awesome-bottom p{
+	font-size: 18px;
+	color:#86878b ;
+}
+.awesome-top hr{
+	width: 7%;
+	margin: 0 auto;
+	border-bottom: 1px solid orange;
+}
+.price{
+	background: #f5f5f5;
+	padding: 100px 0;
+}
+.price-top h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.price-top hr{
+	width: 7%;
+	margin: 0 auto;
+	border-bottom: 1px solid orange;
+}
+.price-top p{
+	text-align: center;
+	font-size: 18px;
+	color: #86878b;
+}
+.price-bottom{
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+}
+.basic,
+.enterprise{
+	background: #ffffff;
+	width: 30%;
+	text-align: center;
+	margin-top: 150px;
+}
+.basic ul,
+.enterprise ul{
+	margin: 0;
+	padding: 0;
+}
+.basic ul li,
+.enterprise ul li{
+	list-style-type: none;
+	font-size: 18px;
+	padding: 20px 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #f5f5f5;
+	color: #86878b;
+}
+.basic h3,
+.enterprise h3{
+	font-size: 25px;
+	border-bottom: 1px solid white;
+	margin: 0;
+	padding: 20px 0;
+	background: #333333;
+	color: white;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.basic span,
+.enterprise span{
+	font-size: 80px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+}
+.basic h4,
+.enterprise h4{
+	font-size: 25px;
+	color: white;
+	background: #333333;
+	margin: 0;
+	padding: 30px 0;
+}
+.basic p,
+.enterprise p{
+	font-style: italic;
+	color: gray;
+	background:#333333 ;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 4px solid orange;
+}
+.professional{
+	background: #ffffff;
+	width: 30%;
+	text-align: center;
+	margin-top: 90px;
+}
+.professional ul{
+	margin: 0;
+	padding: 0;
+}
+.professional ul li{
+	list-style-type: none;
+	font-size: 18px;
+	padding: 20px 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #f5f5f5;
+	color: #86878b;
+}
+.professional h3{
+	font-size: 25px;
+	border-bottom: 1px solid white;
+	margin: 0;
+	padding: 20px 0;
+	background: #333333;
+	color: white;
+	font-weight: normal;
+}
+.professional span{
+	font-size: 80px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+}
+.professional h4{
+	font-size: 25px;
+	color: white;
+	background: #333333;
+	margin: 0;
+	padding: 30px 0;
+}
+.professional p{
+	font-style: italic;
+	color: gray;
+	background:#333333 ;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 4px solid orange;
+}
+.professional h5{
+	font-size: 18px;
+	margin: 0;
+	padding: 20px 0;
+	background: orange;
+	font-family: sans-serif;
 }
