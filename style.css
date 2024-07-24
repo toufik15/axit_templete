@@ -1,10 +1,25 @@
 body{
      margin: 0;
 }
+
+.scrolltotop {
+	margin: 0;
+	padding: 10px;
+	color: red;
+	font-size: 30px;
+	position: fixed;
+	right: 20px;
+	bottom:20px;
+	cursor: pointer;
+	border-radius: 50%;
+	border:2px solid red;
+	background: greenyellow;
+
+}
+
 .container{
 	width: 90%;
-	margin: auto;
-	
+	margin: 0 auto;
 }
 .header{
 	background: black;
@@ -17,32 +32,34 @@ body{
 	clear: both;
 }
 .logo{
-	float: left;
 	width: 30%;
+	float: left;
+	margin: 0;
+	padding: 0;
 }
 .logo img{
 	margin-top: 15px;
-
 }
 .main-menu{
+	margin: 0;
+	padding: 0;
 	width: 70%;
-	/*overflow: hidden;*/
-	float: left;
+	float: right;
 }
 .main-menu ul{
-	margin: 0;
 	float: right;
-	display: block;
+	margin: 0;
+	padding: 0;
 }
 .main-menu >ul >li{
-	float: left;
 	list-style-type: none;
 	position: relative;
+	float: left;
 }
 .main-menu ul li a{
 	color: white;
 	text-decoration: none;
-	padding: 20px 30px;
+	padding: 20px 50px;
 	display: block;
 	text-transform: capitalize;
 	font-family: tahoma;
@@ -110,7 +127,6 @@ body{
 	font-weight: normal;
 	width: 60%;
 	padding-bottom: 50px;
-	font-family: sans-serif;
 	font-size: 18px;
 	margin-top: 30px;
 }
@@ -159,10 +175,6 @@ body{
 }
 .banner-right .submitbox{
 	margin-top: 70px;
-}
-.container{
-	width: 80%;
-	margin: auto;
 }
 ::placeholder{
 	color: #86878b;
@@ -628,7 +640,7 @@ body{
 .review1 .box1,
 .review2 .box2,
 .review3 .box3{
-	width: 100%;
+	width: 90%;
 	background: #f5f5f5;
 	padding: 10px 15px;
 	font-size: 18px;
@@ -795,3 +807,7 @@ body{
 	margin: 0;
 	padding-top: 20px;
 }
+
+
+
+
