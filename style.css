@@ -1,19 +1,31 @@
 body{
      margin: 0;
 }
-
+.bars{
+	color: white;
+	text-decoration: none;
+	padding: 20px 50px;
+	display: block;
+	text-transform: capitalize;
+	font-family: tahoma;
+	font-weight: normal;
+	display: none;
+}
+.bars i{
+	display: block;
+	padding: 0;
+	font-size: 25px;
+	text-align: center;
+}
 .scrolltotop {
 	margin: 0;
 	padding: 10px;
-	color: red;
-	font-size: 30px;
+	color: #ff9b51;
+	font-size: 40px;
 	position: fixed;
 	right: 20px;
 	bottom:20px;
 	cursor: pointer;
-	border-radius: 50%;
-	border:2px solid red;
-	background: greenyellow;
 
 }
 
@@ -59,7 +71,7 @@ body{
 .main-menu ul li a{
 	color: white;
 	text-decoration: none;
-	padding: 20px 50px;
+	padding: 20px 40px;
 	display: block;
 	text-transform: capitalize;
 	font-family: tahoma;
@@ -154,6 +166,9 @@ body{
 }
 .banner-right .inputbox{
 	padding: 0 40px;
+}
+.banner-right form{
+	width: 100%;
 }
 .banner-right input{
 	float: none;
@@ -796,10 +811,11 @@ body{
 }
 .footer-icon ul li{
 	text-decoration: none;
+	list-style-type: none;
 }
 .footer-icon ul li a{
 	font-size: 30px;
-	color: dimgray;
+	color: #cccccc;;
 }
 .footer p{
 	text-align: center;

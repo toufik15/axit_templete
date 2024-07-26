@@ -11,14 +11,14 @@ jQuery(document).ready(function(){
 
 	jQuery(window).scroll(function(){
 
-		var headerheight = jQuery(".header").innerHeight();
+/*		var headerheight = jQuery(".header").innerHeight();
 		var bannerheight = jQuery(".banner-section").innerHeight();
 
-		var totalheight = parseInt(headerheight) + parseInt(bannerheight);
+		var totalheight = parseInt(headerheight) + parseInt(bannerheight);*/
 
 		var count = jQuery(window).scrollTop();
 
-		if (count>totalheight) {
+		if (count>400) {
 
 			jQuery(".scrolltotop").show();
 		}
@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
 				/*jQuery("input[type='text'],input[type='email'],input[type='password']").*/alert("Fill Up form");
 			}
 			else{
-				return false;
+				alert("message sent successfylly");
 			}			
 
 		});
@@ -50,6 +50,25 @@ jQuery(document).ready(function(){
 
 			alert("You can't download at this moment");
 		});
+
+
+
+		jQuery(".bars").click(function(){
+
+			jQuery(".main-menu ul").slideToggle();
+		})
+
+
+		jQuery(window).resize(function(){
+
+			var winWidth = jQuery(window).width();
+
+
+			if(winWidth>600){
+				jQuery(".main-menu ul").removeAttr('style');
+			}
+
+		})
 
 
 

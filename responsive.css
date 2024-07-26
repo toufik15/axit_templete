@@ -1,3 +1,4 @@
+
 @media all and (max-width:768px){
 
 	.banner-left{
@@ -75,8 +76,48 @@
 
 
 
-@media all and (max-width:400px){
+@media all and (max-width:768px){
+	
+	.main-menu{
+		width: 70%;
 
+	}
+	.logo{
+		width: 30%;
+		
+	}
+	.main-menu ul{
+	width: 40%;
+	float: right;
+
+	}
+
+	.bars{
+	color: white;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+	text-transform: capitalize;
+	font-family: tahoma;
+	font-weight: normal;
+		}
+	.bars i{
+			text-align: center;
+			margin-left: 80%;
+			display: block;
+	}
+	
+	.main-menu >ul >li{
+	list-style-type: none;
+	position: relative;
+	float: none;
+
+	}
+	.main-menu ul li a{
+		display: block;
+		padding: 20px 10px;
+		text-align:center;
+	}
 	.banner-left{
 		width: 100%;
 		margin: 0;
@@ -332,17 +373,4 @@
 	.professional p{
 		padding: 10px 0;
 	}
-	.main-menu ul{
-		padding: 0;
-		margin: 0;
-		float: right;
-		width: 50%;
-	}
-	.main-menu{
-	width: 70%;
-	/*overflow: hidden;*/
-	float: right;
-	margin: 0;
-	padding: 0;
-}
 }
