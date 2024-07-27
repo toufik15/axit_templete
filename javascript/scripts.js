@@ -64,7 +64,7 @@ jQuery(document).ready(function(){
 			var winWidth = jQuery(window).width();
 
 
-			if(winWidth>600){
+			if(winWidth>435){
 				jQuery(".main-menu ul").removeAttr('style');
 			}
 

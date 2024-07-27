@@ -1,84 +1,244 @@
 
-@media all and (max-width:768px){
 
+@media all and (max-width:768px){
+	.container{
+		width:95%;
+	}
+	.main-menu{
+		width: 80%;
+
+	}
+	.logo{
+		width: 20%;
+		
+	}
 	.banner-left{
-		width: 48%;
-		margin-right: 2%;
+		width: 55%;
 	}
 	.banner-right{
-		width: 48%;
-		margin-left: 2%;
-		margin-top: 0;
-	}
-	.banner-left img{
-		width: 100px;
+		width: 45%;
 	}
 	.banner-left h1{
-		font-size: 20px;
-		width: 100%;
-		padding: 0;
+		width: 90%;
+		font-size: 22px;
 	}
 	.banner-left p{
-		font-size: 16px;
-		width: 100%;
+		width: 90%;
 	}
-	.banner-right h2{
-		font-size: 20px;
-	}
-	.banner-right input{
-		margin: 30px 0;
-	}
-	.banner-right .submitbox{
-		margin-top: 30px;
-	}
-	.social-left p{
-		font-size: 12px;
-	}
-	.social-right ul li a{
-		font-size: 35px;
-	}
-	.soft-left{
-		width: 100%;
-		float: none;
-	}
-	.soft-box{
-		width: 30%;
-	}
-	.soft-text{
-		width: 70%;
-	}
-	.soft-right{
-		width: 100%;
-		overflow: none;
-		text-align: center;
-	}
-	.soft-text p{
-		width: 100%;
-		font-family: tahoma;
-	}
-	.soft-right img{
-		float: none;
-		width: 100%;
-	}
-	.soft-text a{
-		text-decoration: none;
-		padding: 15px 40px;
-		background-color: #ff8b38;
-		display: block;
-		width: 20%;
-		/*text-align: center;*/
-		color: white;
-		font-weight: bold;
-		border-radius: 4px;
-		margin-top: 20px;
+	.banner-right{
+		margin-top: 0;
 	}
 }
 
 
 
-@media all and (max-width:768px){
-	
-	.main-menu{
+@media all and (max-width:435px){
+
+	.container{
+		width: 95%;
+	}
+	.main-menu ul{
+		float: left;
+		width: 100%;
+	}
+	.main-menu ul li{
+		float: none;
+	}
+	.banner-left{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.banner-left h1{
+		width: 100%;
+	}
+	.banner-left p{
+		width: 90%;
+		margin:0 auto;
+		font-size: 14px;
+		padding-top: 20px;
+	}
+	.banner-left hr{
+		margin: 0 auto;
+	}
+	.banner-right{
+		width: 100%;
+		margin-top: 70px;
+	}
+	.social-media .social-left{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.social-media .social-right{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.social-right ul{
+		margin: 0;
+		padding-left: 0;
+	}
+	.soft-left{
+		width: 100%;
+		float: none;
+	}
+	.soft-right{
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+	.soft-right img{
+		float: none;
+		width: 100%;
+	}
+	.soft-box{
+		width: 100%;
+		float: none;
+		display: flex;
+		justify-content: space-around;
+	}
+	.soft-text{
+		width: 100%;
+		text-align: center;
+	}
+	.soft-text p{
+		width: 95%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.soft-p{
+		padding: 10px 0;
+		font-size: 14px;
+	}
+	.soft-text a{
+		width: 30%;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.sublist-left{
+		width: 100%;
+		float: none;
+	}
+	.sublist-right{
+		width: 100%;
+	}
+	.sublist-left img{
+		width: 100%;
+	}
+	.sublist-right p{
+		width: 90%;
+		font-size: 14px;
+	}
+	.standard-picture-left{
+		width: 100%;
+	}
+	.standard-picture-left h2{
+		text-align: center;
+	}
+	.standard-picture-left p{
+		width: 95%;
+		text-align: center;
+	}
+	.standard-picture-right{
+		width: 100%;
+		float: none;
+	}
+	.standard-picture-right img{
+		width: 100%;
+	}
+	.awesome-top h2{
+		font-size: 25px;
+	}
+	.awesome-top p{
+		font-size: 16px;
+		width: 70%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	.awesome-bottom{
+		flex-direction: column;
+	}
+	.icon-middle{
+		margin: 0;
+	}
+	.awesome-bottom .icon-middle{
+		margin: 0;
+	}
+	.icon-left{
+		margin-top: 40px;
+	}
+	.price-top h2{
+		font-size: 25px;
+	}
+	.price-top p{
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.price-bottom{
+		flex-direction: column;
+	}
+	.basic,
+	.enterprise{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.professional{
+		width: 90%;
+		margin: 20px auto;	
+	}
+	.testmonial-top h2{
+		font-size: 25px;
+	}
+	.testmonial-top p{
+		font-size: 14px;
+	}
+	.testmonial-bottom{
+		flex-direction: column;
+	}
+	.review1,
+	.review2,
+	.review3{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.design h2{
+		font-size: 25px;
+	}
+	.design p{
+		font-size: 14px;
+	}
+	.contact-top h2{
+		font-size: 25px;
+	}
+	.contact-top p{
+		font-size: 14px;
+	}
+	.contact-form-input{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+	.contact-form-message{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+	.footer-icon{
+		width: 50%;
+	}
+	.footer-icon ul li a{
+		font-size: 20px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+
+
+
+
+
+		.main-menu{
 		width: 70%;
 
 	}
@@ -89,6 +249,7 @@
 	.main-menu ul{
 	width: 40%;
 	float: right;
+	display: none;
 
 	}
 
@@ -117,260 +278,5 @@
 		display: block;
 		padding: 20px 10px;
 		text-align:center;
-	}
-	.banner-left{
-		width: 100%;
-		margin: 0;
-		float: none;
-		text-align: center;
-	}
-	.banner-left hr{
-		width: 10%;
-		margin: 0 auto;
-	}
-	.banner-right{
-		width: 100%;
-		margin-top: 100px;
-
-	}
-	.banner-left img{
-		width: 100px;
-		text-align: center;
-	}
-	.banner-left h1{
-		font-size: 20px;
-		width: 100%;
-		padding: 10px 0;
-		text-align: center;
-	}
-	.banner-left p{
-		font-size: 16px;
-		width: 100%;
-	}
-	.banner-right h2{
-		font-size: 20px;
-	}
-	.banner-right input{
-		margin: 30px 0;
-	}
-	.banner-right .submitbox{
-		margin-top: 30px;
-	}
-	.social-left p{
-		font-size: 12px;
-	}
-	.social-right ul li a{
-		font-size: 35px;
-	}
-	.soft-left{
-		width: 100%;
-		float: none;
-	}
-	.soft-box{
-		width: 30%;
-	}
-	.soft-text{
-		width: 70%;
-	}
-	.soft-right{
-		width: 100%;
-		overflow: none;
-		text-align: center;
-	}
-	.soft-text p{
-		width: 100%;
-		font-family: tahoma;
-	}
-	.soft-right img{
-		float: none;
-		width: 100%;
-	}
-	.soft-text a{
-		text-decoration: none;
-		padding: 15px 40px;
-		background-color: #ff8b38;
-		display: block;
-		width: 20%;
-		/*text-align: center;*/
-		color: white;
-		font-weight: bold;
-		border-radius: 4px;
-		margin-top: 20px;
-	}
-	.social-media .social-left{
-		width: 100%;
-		float: none;
-		font-family: tahoma;
-		text-align: center;
-	}
-	.social-media .social-right{
-		width:100%;
-	}
-	.social-right ul{
-		display: flex;
-		justify-content: space-between;
-		margin-left: 0;
-		overflow: hidden;
-		padding: 0;
-	}
-	.soft-box{
-		display: flex;
-		justify-content: space-between;
-		width: 100%;
-		margin-top: 10px;
-	}
-	.soft-box .box1{
-		width: 80px;
-		height: 80px;
-		float: ;
-		background: #ff8b38;
-		display: block;
-		margin: 0;
-		padding: 0;
-		border-radius: 4px;
-	}
-	.soft-box .box2{
-		width: 80px;
-		height: 80px;
-		background: black;
-		margin: 0;
-		padding: 0;
-		border-radius: 4px;
-	}
-	.soft-box .box3{
-		width: 80px;
-		height: 80px;
-		background: black;
-		border-radius: 4px;
-	}
-	.soft-text{
-		text-align: center;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	.soft-box h3{
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		line-height: 80px;
-		color: white;
-	}
-	.soft-text a{
-		width: 30%;
-		margin: 0 auto;
-		padding: 15px 30px;
-	}
-	.soft-p{
-		margin-bottom: 30px;
-	}
-	.sub-list{
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
-	.sublist-left{
-		width: 100%;
-	}
-	.sublist-right{
-		width: 100%;
-		overflow: hidden;
-		float: none;
-	}
-	.sublist-left img{
-		width: 100%;
-		margin: 0 auto;
-	}
-	.sublist-right >p{
-		width: 100%;
-	}
-	.standard-picture-right{
-		width: 100%;
-	}
-	.standard-picture-left{
-		width: 100%;
-	}
-	.standard-picture-left p{
-		width: 100%;
-		text-align: center;
-	}
-	.standard-picture-left h2{
-		width: 100%;
-		text-align: center;
-		font-size: 25px;
-	}
-	.standard-picture-right{
-		overflow: hidden;
-	}
-	.standard-picture-right img{
-		width: 100%;
-		margin: 0 auto;
-	}
-	.awesome-bottom{
-
-		flex-direction: column;
-	}
-	.icon-left,
-	.icon-middle,
-	.icon-right{
-		width: 100%;
-		float: none;
-	}
-	.awesome-bottom .icon-middle{
-		margin: 0;
-	}
-	.awesome-bottom h3{
-		margin-top: 0;
-	}
-	.icon-middle{
-		padding: 20px 0;
-	}
-	.price-top h2{
-		font-size: 30px;
-		width: 100%;
-	}
-	.price-bottom{
-		width: 100%;
-		flex-direction: column;
-	}
-	.basic,
-	.enterprise{
-		width: 100%;
-		text-align: center;
-		margin-top: 50px;
-	}
-	.professional{
-		width: 100%;
-		margin-top: 50px;
-	}
-	.testmonial-top h2{
-		font-size: 25px;
-	}
-	.testmonial-bottom{
-		flex-direction: column;
-	}
-	.review1,
-	.review2,
-	.review3{
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	.design h2{
-		font-size: 25px;
-	}
-	.contact-top h2{
-		font-size: 25px;
-	}
-	.footer-icon{
-		width: 100%;
-	}
-	.enterprise p{
-		padding: 10px 0;
-	}
-	.basic p{
-		padding: 10px 0;
-	}
-	.professional p{
-		padding: 10px 0;
 	}
 }
