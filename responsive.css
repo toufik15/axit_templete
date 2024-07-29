@@ -1,32 +1,244 @@
 
 
-@media all and (max-width:768px){
-	.container{
-		width:95%;
-	}
-	.main-menu{
-		width: 80%;
-
-	}
-	.logo{
-		width: 20%;
-		
-	}
-	.banner-left{
-		width: 55%;
-	}
-	.banner-right{
-		width: 45%;
+@media all and (max-width:1100px){
+ .banner-left{
+	width: 60%;
 	}
 	.banner-left h1{
-		width: 90%;
-		font-size: 22px;
+	width: 90%;
+	font-size:25px;
+	}
+	.banner-left p{
+	width: 80%;
+	font-size: 14px;
+	}
+	.banner-right{
+	width: 40%;
+ 	background: white;
+	}
+}
+
+@media all and (max-width:800px){
+	.container{
+		width:80%;
+	}
+	.banner-left{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.banner-left h1{
+		width: 100%;
 	}
 	.banner-left p{
 		width: 90%;
+		margin:0 auto;
+		font-size: 14px;
+		padding-top: 20px;
+	}
+	.banner-left hr{
+		margin: 0 auto;
 	}
 	.banner-right{
-		margin-top: 0;
+		width: 100%;
+		margin-top: 70px;
+	}
+	.sublist-left{
+		width: 100%;
+		float: none;
+	}
+	.sublist-right{
+		width: 100%;
+	}
+	.sublist-left img{
+		width: 100%;
+	}
+	.sublist-right p{
+		width: 90%;
+		font-size: 14px;
+	}
+	.standard-picture-left{
+		width: 100%;
+	}
+	.standard-picture-left h2{
+		text-align: center;
+	}
+	.standard-picture-left p{
+		width: 95%;
+		text-align: center;
+	}
+	.standard-picture-right{
+		width: 100%;
+		float: none;
+	}
+	.standard-picture-right img{
+		width: 100%;
+	}
+	.awesome-top h2{
+		font-size: 25px;
+	}
+	.awesome-top p{
+		font-size: 16px;
+		width: 70%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	.awesome-bottom{
+		flex-direction: column;
+	}
+	.icon-middle{
+		margin: 0;
+	}
+	.awesome-bottom .icon-middle{
+		margin: 0;
+	}
+	.icon-left{
+		margin-top: 40px;
+	}
+	.price-top h2{
+		font-size: 25px;
+	}
+	.price-top p{
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+	.price-bottom{
+		flex-direction: column;
+	}
+	.basic,
+	.enterprise{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.professional{
+		width: 90%;
+		margin: 20px auto;	
+	}
+	.testmonial-top h2{
+		font-size: 25px;
+	}
+	.testmonial-top p{
+		font-size: 14px;
+	}
+	.testmonial-bottom{
+		flex-direction: column;
+	}
+	.review1,
+	.review2,
+	.review3{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.design h2{
+		font-size: 25px;
+	}
+	.design p{
+		font-size: 14px;
+	}
+	.contact-top h2{
+		font-size: 25px;
+	}
+	.contact-top p{
+		font-size: 14px;
+	}
+	.contact-form-input{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+	.contact-form-message{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+	.footer-icon{
+		width: 50%;
+	}
+	.footer-icon ul li a{
+		font-size: 20px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+
+		.main-menu{
+		width: 70%;
+
+	}
+	.logo{
+		width: 30%;
+		
+	}
+	.main-menu ul{
+	width: 40%;
+	float: right;
+	display: none;
+
+	}
+
+	.bars{
+	color: white;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+	text-transform: capitalize;
+	font-family: tahoma;
+	font-weight: normal;
+		}
+	.bars i{
+			text-align: center;
+			margin-left: 80%;
+			display: block;
+	}
+	
+	.main-menu >ul >li{
+	list-style-type: none;
+	position: relative;
+	float: none;
+
+	}
+	.main-menu ul li a{
+		display: block;
+		padding: 20px 10px;
+		text-align:center;
+	}
+		.soft-left{
+		width: 100%;
+		float: none;
+	}
+	.soft-right{
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+	.soft-right img{
+		float: none;
+		width: 100%;
+	}
+	.soft-box{
+		width: 100%;
+		float: none;
+		display: flex;
+		justify-content: space-around;
+	}
+	.soft-text{
+		width: 100%;
+		text-align: center;
+	}
+	.soft-text p{
+		width: 95%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.soft-p{
+		padding: 10px 0;
+		font-size: 14px;
+	}
+	.soft-text a{
+		width: 30%;
+		margin: 0 auto;
+		margin-top: 10px;
 	}
 }
 
@@ -280,3 +492,5 @@
 		text-align:center;
 	}
 }
+
+
